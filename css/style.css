@@ -9,6 +9,9 @@ html{
 
 header {
     background-color: orange;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .header-container {
@@ -45,7 +48,7 @@ header {
 .main-container {
     width: 1170px;
     margin: auto;
-    padding: 50px 0px;  
+    padding: 100px 0px;  
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
