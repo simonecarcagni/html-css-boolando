@@ -102,3 +102,43 @@ header {
 .tag-green{
     background-color: green;
 }
+
+footer{
+    background-color: rgb(26, 26, 26);
+}
+
+.footer-container{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.credential {
+    width: 50%;
+    color: white;
+}
+
+.credential a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.socials{
+    width: 50%;
+    text-align: end;
+    color: white;
+}
+
+.socials h4{
+    padding: 0px 25px;
+    font-size: 14px;
+}
+
+.socials i{
+    margin: 10px 10px 0px 0px;
+}
