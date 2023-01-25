@@ -41,3 +41,64 @@ header {
     text-align: end;
     color: white;
 }
+
+.main-container {
+    width: 1170px;
+    margin: auto;
+    padding: 50px 0px;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    width: 30%;
+    margin: 25px 0px;
+}
+
+.img-container{
+    position: relative;
+}
+.img-container img {
+    max-width: 100%;
+}
+
+.red-price{
+    color: red;
+    
+}
+
+.little-title{
+    font-weight: 200;
+}
+
+.hearts{
+    width: 15%;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    text-align: center;
+    line-height: 50px;
+}
+.discount{
+    position: absolute;
+    width: 55%;
+    bottom: 30px;
+}
+
+.tag{
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.tag-red{
+    background-color: red;
+}
+
+.tag-green{
+    background-color: green;
+}
