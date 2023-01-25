@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+}
+
+header {
+    background-color: orange;
+}
+
+.header-container {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.gender{
+    width: 20%;
+    color: white;
+    font-weight: bold;
+}
+
+.logo{
+    width: 60%;
+    height: 50px;
+    text-align: center;
+}
+
+.logo img {
+    max-height: 100%;
+}
+
+.icons {
+    width: 20%;
+    text-align: end;
+    color: white;
+}
