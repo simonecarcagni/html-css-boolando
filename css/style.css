@@ -39,6 +39,28 @@ header {
     max-height: 100%;
 }
 
+.icons i{
+    margin-left: 5px;
+}
+.img-container:hover .img-showed{
+    display: none;
+}
+
+.img-container:hover .img-covered{
+    display: block;
+}
+
+
+.img-covered {
+    width: 100%;
+    display: none;
+    padding-bottom: 4px;
+}
+
+.hearts:hover {
+    color: red;
+}
+
 .icons {
     width: 20%;
     text-align: end;
@@ -52,6 +74,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
 }
 
 .column {
@@ -61,7 +84,9 @@ header {
 
 .img-container{
     position: relative;
+    height: 500px;
 }
+
 .img-container img {
     max-width: 100%;
 }
@@ -71,8 +96,18 @@ header {
     
 }
 
+.title{
+    margin-top: 10px;
+    font-weight: 200;
+}
+
 .little-title{
     font-weight: 200;
+    margin-top: 5px;
+}
+
+.big-title{
+    margin-top: 5px;
 }
 
 .hearts{
@@ -84,10 +119,13 @@ header {
     text-align: center;
     line-height: 50px;
 }
+
+
 .discount{
     position: absolute;
     width: 55%;
     bottom: 30px;
+    left: 0;
 }
 
 .tag{
